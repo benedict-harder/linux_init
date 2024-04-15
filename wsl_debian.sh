@@ -4,7 +4,7 @@ apt update
 apt upgrade -y
 
 # packages
-apt install git texlive-full python3 python3-pip python3-venv neofetch lf -y
+apt install git texlive-full python3 python3-pip python3-venv neofetch lf curl -y
 
 # I use this to make the command prompt look a bit nicer, completely optional
 echo 'export PS1="\[$(tput bold)\]\[\033[38;5;10m\]\u@\h:\[$(tput sgr0)\] \[$(tput sgr0)\]\[$(tput bold)\]\[\033[38;5;27m\]\W\[$(tput sgr0)\] \[$(tput bold)\]\\$ \[$(tput sgr0)\]"' >> $HOME/.bashrc
