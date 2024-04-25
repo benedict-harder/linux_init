@@ -11,9 +11,9 @@ echo 'export PS1="\[$(tput bold)\]\[\033[38;5;10m\]\u@\h:\[$(tput sgr0)\] \[$(tp
 
 # insert aliases here
 echo "alias ll=\"ls -la\"" >> $HOME/.bashrc
-echo "repos=\"cd /mnt/c/dev/repos\"" >> $HOME/.bashrc 
-echo "exe=\"explorer.exe\"" >> $HOME/.bashrc # shortcut for windows explorer
-
+echo "alias repos=\"cd /mnt/c/dev/repos\"" >> $HOME/.bashrc 
+echo "alias exe=\"explorer.exe\"" >> $HOME/.bashrc # shortcut for windows explorer
+echo "alias pyvenv=\"python3 -m venv\"" >> $HOME/.bashrc
 
 # reload the bash config
 sh $HOME/.bashrc
